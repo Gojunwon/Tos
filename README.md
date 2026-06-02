@@ -134,13 +134,4 @@ mini-shell> exit
 
 현재 `core/scheduler`에는 기본 알고리즘 값과 큐 구조가 있지만, 아직 실제 FCFS나 RR 실행 로직이 구현된 상태는 아닙니다. `ps`에서도 스케줄링 알고리즘은 사용자가 나중에 `set_sched`로 설정했을 때만 표시되도록 설계되어 있습니다.
 
-## 확장 방향
 
-다음 단계에서는 다음 순서로 확장하는 것이 자연스럽습니다.
-
-1. `set_sched` 명령 추가
-2. `run` 명령 추가
-3. FCFS 실행 루프 구현
-4. I/O 대기와 Waiting Queue 처리
-5. RR과 time quantum 처리
-6. `core/memory`에 파일 기반 메모리 시뮬레이션 추가
