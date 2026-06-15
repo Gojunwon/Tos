@@ -52,6 +52,8 @@ PCB (Process Control Block) Table
 프로세스의 고유 속성(PID, 상태, Remain Time, Memory Address 등)을 관리하는 커널 핵심 테이블 설계.
 
 Interface & Environments
+
+
 CLI (Command Line Interface)
 
 rs (Soft Reset) 등 커널 제어 명령어를 직접 파싱하고 처리하는 유저 인터페이스 파이프라인 구축.
@@ -59,6 +61,7 @@ rs (Soft Reset) 등 커널 제어 명령어를 직접 파싱하고 처리하는 
 시뮬레이션 상태를 실시간 스냅샷(Snapshot) 테이블 형태로 터미널에 렌더링하는 가시화 로직 구현.
 
 Development Environment
+
 
 OS: Windows / Linux (Cross-platform 구조 설계)
 
