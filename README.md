@@ -34,7 +34,7 @@
 * **결과 및 성과 (Value)**
   * 프로그램을 재시작하는 번거로움 없이 터미널 내부에서 `rs` 명령어 입력만으로 즉시 새로운 스케줄링 시나리오를 테스트할 수 있게 되어 **테스트 연속성과 개발자 경험(DX)을 극대화**했으며, 시스템 자원이 고갈되는 메모리릭 문제를 완벽히 차단했습니다.
   
-  C (C11 표준)
+  ### C (C11 표준)
 
 메모리 주소(Pointer)에 직접 접근하여 커널 수준의 자료구조(PCB, Queue)를 정밀하게 제어하기 위해 채택.
 
@@ -47,11 +47,11 @@ Custom Multi-Queue Architecture
 
 알고리즘 스위칭 시 자원 간섭을 최소화하는 하드웨어 친화적(Cache-friendly) 구조 지향.
 
-PCB (Process Control Block) Table
+### PCB (Process Control Block) Table
 
 프로세스의 고유 속성(PID, 상태, Remain Time, Memory Address 등)을 관리하는 커널 핵심 테이블 설계.
 
-Interface & Environments
+### Interface & Environments
 
 
 CLI (Command Line Interface)
