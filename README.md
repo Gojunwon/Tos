@@ -1,3 +1,4 @@
+#A8B9CC
 # TOS Mini Shell
 
 > **💡 본 프로젝트의 핵심 목표**
