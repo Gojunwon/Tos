@@ -1,4 +1,4 @@
-https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge
+![](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge)
 # TOS Mini Shell
 
 > **💡 본 프로젝트의 핵심 목표**
