@@ -49,7 +49,7 @@ Custom Multi-Queue Architecture
 알고리즘 스위칭 시 자원 간섭을 최소화하는 하드웨어 친화적(Cache-friendly) 구조 지향.
 
 ### PCB (Process Control Block) Table
-
+s
 프로세스의 고유 속성(PID, 상태, Remain Time, Memory Address 등)을 관리하는 커널 핵심 테이블 설계.
 
 ### Interface & Environments
