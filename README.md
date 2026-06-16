@@ -166,7 +166,9 @@ mini-shell>
 
 ## 실행 예시
 
+시작하기 전 Tos라는 파일로 터미널을 통해 이동해야 하며 개발모드로만 운영되어 사용되고 stdlib.h stdio.h unistd.h 등의 헤더파일 라이브러리가 필요하며  
 ```text
+./Tos
 mini-shell> create P1 10
 Created P1 (logical PID=1, state=READY, total=10)
   I/O: disabled
